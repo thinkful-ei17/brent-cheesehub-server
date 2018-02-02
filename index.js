@@ -32,7 +32,7 @@ if (require.main === module) {
   runServer();
 }
 
-app.get('/cheeses', (req, res) => (
+app.get('/api/cheeses', (req, res) => (
   res.json([
     'Bath Blue',
     'Barkham Blue',
